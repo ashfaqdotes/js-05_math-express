@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        //task1
+        document.write('<b>Task 1</b>');
+
+        var num1 = 3;
+        var num2 = 5;
+        document.write('</br> Sum of ' + num1 + ' and ' + num2 + ' is ');
+        document.write(num1 + num2);
+        document.write('</br>');
+
+        //task2
+        //a
+        document.write('</br> <b>Task 2</b>');
+        
+        document.write('</br> a) Sub of ' + num1 + ' and ' + num2 + ' is ');
+        document.write(num1 - num2);
+
+        //b
+        document.write('</br> b) ' + num1 + ' x ' + num2 + ' = ');
+        document.write(num1 * num2);    
+
+        //c
+        document.write('</br> c) ' + num1 + ' divided by ' + num2 + ' = ');
+        document.write(num1 / num2);
+        
+        //d
+        document.write('</br> d) ' + num1 + ' % of ' + num2 + ' is ');
+        document.write(num1 % num2);
+        document.write('</br>');
+
+        //task3
+        document.write('</br> <b>Task 3</b>');
+
+        var task3Num;
+        document.write('</br> Value after variable declaration is ' + task3Num);
+        task3Num = 5;
+        document.write('</br> Initial value is ' +task3Num);
+        task3Num++;
+        document.write('</br> Value after increment is: ' + task3Num);
+        task3Num += 7;
+        document.write('</br> Value after addition is: ' + task3Num);
+        task3Num--;
+        document.write('</br> Value after decrement is: ' + task3Num);
+        task3Num /= 3;
+        task3Num %= task3Num;
+        document.write('</br> The reminder is ' + task3Num);
+        document.write('</br>');
+
+        //task 4
+        document.write('</br> <b>Task 4</b>');
+
+        var oneTicket = 600;
+        var fiveTickets = oneTicket * 5;
+        document.write('</br> Total cost to buy 5 Tickets to a movie is ' + fiveTickets);
+        document.write('</br>')
+
+        //task 5
+        document.write('</br> <b>Task 5</b>');
+
+        var fourTable = 4;
+        var TableNum = 1;
+        document.write('</br> 4x' + TableNum + '=' + fourTable);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br> 4x' + ++TableNum + '=' + fourTable * TableNum);
+        document.write('</br>')
+
+        //task 6
+        document.write('</br> <b>Task 6</b>');
+
+        var c = 40;
+        var f = 0;
+        f = (c * (9 / 5)) + 32;
+        document.write('</br>' + c + '°C is ' + f + '°F');
+
+        var c2 = 0;
+        var f2 = 80;
+        c2 = (f2 - 32) * 5/9;
+        document.write('</br>' + f2 + '°F is ' + c2 + '°C');
+        document.write('</br>')
+
+        //task 7
+        document.write('</br> <b>Task 7</b>');
+
+        var firstItemPrice = 899;
+        var secondItemPrice = 1599;
+        var firstItemQuantity = 3;
+        var secondItemQuantity = 7;
+        var shippingCharges = 199;
+
+        document.write('</br> Price of item 1: ' + firstItemPrice);
+        document.write('</br> Quantity of item 1: ' + firstItemQuantity);
+        document.write('</br> Price of item 2: ' + secondItemPrice);
+        document.write('</br> Quantity of item 1: ' + secondItemQuantity);
+        document.write('</br> Shipping charges: ' + shippingCharges);
+
+        var totalCost = firstItemPrice * firstItemQuantity + secondItemPrice * secondItemQuantity + shippingCharges;
+
+        document.write('</br> Total cost: ' + totalCost);
+        document.write('</br>');
+
+        //task 8
+        document.write('</br> <b>Task 8</b>');
+
+        var totalMarks = 1200;
+        var obtainedMarks = 705;
+        var Percentage = obtainedMarks / totalMarks * 100;
+
+        document.write('</br> Total Marks: ' + totalMarks);
+        document.write('</br> Obtained Marks: ' + obtainedMarks);
+        document.write('</br> Percentage: ' + Percentage + '%');
+        document.write('</br>');
+
+        //task 9
+        document.write('</br> <b>Task 9</b>');
+
+        var usd = 278.55;
+        var riyal = 74.27;
+        var usdTOpkr = usd * 10;
+        var riyalTOpkr = riyal * 25;
+        var pkr = usdTOpkr + riyalTOpkr;
+
+        document.write('</br> 10 dollars & 25 Saudi riyals!');
+        document.write('</br> Total Currency in PKR: ' + pkr);
+        document.write('</br>');
+
+        //task 10
+        document.write('</br> <b>Task 10</b>');
+
+        var task10Num = 17;
+        task10Num += 5;
+        task10Num *= 10;
+        task10Num /= 2;
+
+        document.write('</br> Answer:' + task10Num);
+        document.write('</br>');
+
+        //task 11
+        document.write('</br> <b>Task 11</b>');
+
+        var currentYear = 2024;
+        var birthYear = 2002;
+        var yourAge = currentYear - birthYear;
+
+        document.write('</br> Current Year: ' + currentYear);
+        document.write('</br> Birth Year: ' + birthYear);
+        document.write('</br> Your Age: ' + yourAge);
+
+        document.write('</br>');
+
+        //task 12
+        document.write('</br> <b>Task 12</b>');
+
+        var radius = 22;
+        var circumference = Math.PI * 2 * radius;
+        var area = Math.PI * radius * radius;
+
+        document.write('</br> Radius of a circle: ' + radius);
+        document.write('</br> The Circumference of a circle: ' + circumference);
+        document.write('</br> The area of a circle: ' + area);
+
+        document.write('</br>');
+
+        //task 13
+        document.write('</br> <b>Task 13</b>');
+
+        var favoriteSnacks = "chips";
+        var currentAge = 15;
+        var maxAge = 79;
+        var estimatedAmount = 5;
+
+        var remainingAge = maxAge - currentAge;
+        var totalSnacks = remainingAge * estimatedAmount;
+
+        document.write('</br> Favorite Snacks: ' + favoriteSnacks);
+        document.write('</br> Current Age: ' + currentAge);
+        document.write('</br> Maximum Age: ' + maxAge);
+        document.write('</br> Estimated Snacks per day: ' + estimatedAmount);
+        document.write('</br> That much snacks you need: ' + totalSnacks + ' for ' + remainingAge + ' years!');
+
+        document.write('</br>');
+        document.write('</br>');
+        document.write('</br>');
+        document.write('</br>');
+        document.write('</br>');
+        document.write('</br>');
+
+        document.write('</br> <h3>By Afaq :)</h3>');
+    </script>
+</body>
+</html>
